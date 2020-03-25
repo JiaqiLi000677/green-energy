@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Cabin&display=swap');
+
+body {
+    max-width: 60rem;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 0.75rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+.masterhead {
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    color: black;
+    padding-left: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'BioRhyme', serif;
+}
+
+#active {
+    color: red;
+}
+
+.image {
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+/*button design*/
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/*---------------footer design---------------*/
+
+/*social icons*/
+i.fab {
+    font-size: 2em;
+    padding: 10px;
+    color: gray;
+}
+
+ul.nav div {
+    margin: auto;
+}
+
+@media only screen and (min-width: 30rem) {
+    body {
+        font-size: 1em;
+    }
+
+    .masterhead {
+        margin: auto;
+    }
+
+    .masterhead,
+    h2 {
+        text-align: center;
+    }
+
+    .image {
+        width: 50%;
+        float: left;
+    }
+
+    .content {
+        width: 40%;
+        float: right;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .button {
+        margin: auto;
+    }
+}
