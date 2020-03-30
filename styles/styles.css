@@ -93,12 +93,12 @@ ul.nav div {
     }
 
     .image {
-        width: 50%;
+        width: 25%;
         float: left;
     }
 
     .content {
-        width: 40%;
+        width: 70%;
         float: right;
     }
 
